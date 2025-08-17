@@ -147,7 +147,7 @@ st.markdown("""
     }
     
     .metric-card {
-        background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+        background: linear-gradient(135deg, rgba(9, 32, 77, 0.2) 0%, rgba(9, 32, 77, 0.05) 100%);
         padding: 1.5rem;
         border-radius: 10px;
         border-left: 4px solid #10b981;
@@ -265,7 +265,7 @@ st.markdown("""
     
     /* Premium Navigation Styling */
     .navigation-header {
-        background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+        background: linear-gradient(135deg, rgba(9, 32, 77, 0.2) 0%, rgba(9, 32, 77, 0.05) 100%);
         padding: 1.5rem 1rem;
         border-radius: 12px;
         margin-bottom: 2rem;
@@ -293,7 +293,7 @@ st.markdown("""
     }
     
     .navigation-subtitle {
-        color: #cbd5e1;
+        color: #9ca3af;
         font-size: 0.875rem;
         text-align: center;
         margin: 0.5rem 0 0 0;
@@ -649,7 +649,7 @@ def main():
             st.markdown("""
                 <div class="status-card status-success" style="text-align: center;">
                     <strong style="color: #10b981;">✓ Model Status: Ready</strong><br>
-                    <small style="color: #cbd5e1;">Advanced ML model loaded successfully</small>
+                    <small style="color: #9ca3af;">Advanced ML model loaded successfully</small>
                 </div>
             """, unsafe_allow_html=True)
             
