@@ -26,12 +26,16 @@ Our Support Vector Regression model achieves exceptional accuracy:
 - **Statistical Analysis**: Descriptive statistics, correlation matrices, and distribution plots
 - **Visual Analytics**: Multiple chart types including histograms, scatter plots, and box plots
 
+![Screenshot_17-8-2025_183830_localhost](https://github.com/user-attachments/assets/0d993049-c8bf-4e91-94e1-1fd12fcf61b9)
+
 ### 🤖 Model Analytics
 
 - **Algorithm Comparison**: 7 different ML algorithms tested (SVR, Random Forest, Gradient Boosting, etc.)
 - **Performance Metrics**: Detailed evaluation with R², RMSE, MAE, and MAPE
 - **Model Insights**: Feature importance analysis and algorithm characteristics
 - **Cross-Validation Results**: Robust model evaluation with statistical significance
+
+![Screenshot_17-8-2025_183738_localhost](https://github.com/user-attachments/assets/c7982a10-2173-469c-b115-1f817fcde6f4)
 
 ### 🎯 Price Prediction
 
@@ -40,12 +44,16 @@ Our Support Vector Regression model achieves exceptional accuracy:
 - **Interactive Interface**: 13 feature inputs with proper ranges and descriptions
 - **Smart Features**: Reset functionality, random sampling, and celebration effects
 
+![Screenshot_17-8-2025_183712_localhost](https://github.com/user-attachments/assets/814c1789-7768-4c9c-973c-01c17aff83bc)
+
 ### 📱 Professional Interface
 
 - **Premium Design**: Modern UI with emerald theme, gradients, and animations
 - **Responsive Layout**: Optimized for desktop and mobile devices
 - **Navigation System**: Intuitive sidebar with 5 main sections
 - **Help Documentation**: Expandable guides and contextual information
+
+![Screenshot_17-8-2025_183712_localhost](https://github.com/user-attachments/assets/302048b4-7658-495c-b4fa-1c786e6ad2b1)
 
 ## 🚀 Quick Start Guide
 
@@ -294,37 +302,30 @@ Sidebar Navigation:
 
 ```
 BostonHomeWorth/
-├── 📱 Application Core
-│   ├── app.py                    # Main Streamlit application (2,978 lines)
-│   ├── streamlit_app.py          # Alternative entry point
-│   └── model.pkl                 # Trained SVR model (pickle format)
+├── 📄 README.md                           # Comprehensive project documentation
+├── 📄 requirements.txt                    # Python dependencies
+├── 📄 app.py                             # Main Streamlit application (2,978+ lines)
+├── 📄 model.pkl                          # Trained SVR model with preprocessing
+├── 📄 train_multiple_models.py           # Advanced training script (7 algorithms)
+├── 📄 training_report.md                 # Model training results and analysis
+├── 📄 REQUIREMENTS_CHECKLIST.md          # Academic requirements fulfillment
+├── 📄 .gitignore                         # Git ignore file
+├── 📄 LICENSE                           # MIT License
 │
-├── 📊 Data & Analysis
-│   ├── data/
-│   │   └── boston_house_prices.csv
-│   ├── analyze_data.py           # Data exploration script
-│   ├── train_model.py            # Model training pipeline
-│   └── train_multiple_models.py  # Advanced training with comparison
+├── 📁 data/                             # Dataset directory
+│   ├── 📄 dataset.csv                   # Boston housing dataset (cleaned)
+│   └── 📄 boston_house_prices.csv       # Alternative dataset format
 │
-├── 📓 Notebooks
-│   └── notebooks/
-│       └── Boston House Price Prediction.ipynb
+├── 📁 notebooks/                        # Jupyter notebooks
+│   └── 📄 model_training.ipynb          # Comprehensive ML pipeline notebook
 │
-├── 🚀 Deployment
-│   ├── requirements.txt          # Python dependencies
-│   ├── run_streamlit.bat         # Windows batch launcher
-│   ├── run_streamlit.sh          # Unix shell launcher
-│   └── test_streamlit.py         # Application testing
+├── 📁 .venv/                           # Virtual environment
+│   ├── 📁 Lib/                         # Python libraries
+│   ├── 📁 Scripts/                     # Environment scripts
+│   └── 📄 pyvenv.cfg                   # Environment configuration
 │
-├── 📋 Documentation
-│   ├── README.md                 # This comprehensive guide
-│   ├── REQUIREMENTS_CHECKLIST.md # Academic requirements fulfillment
-│   ├── CLEANUP_SUMMARY.md        # Development history
-│   └── README_Streamlit.md       # Streamlit-specific documentation
-│
-└── 🎨 Templates
-    └── templates/
-        └── test.html
+└── 📁 __pycache__/                     # Python cache files
+    └── 📄 *.pyc                        # Compiled Python files
 ```
 
 ### 🐍 Dependencies & Requirements
@@ -357,7 +358,7 @@ werkzeug>=2.3.0         # WSGI utilities
 
 ```powershell
 # Windows PowerShell
-cd "E:/Projects/AIML Projects/BostonHomeWorth"
+cd "your local machine location"
 & "./venv/Scripts/Activate.ps1"
 streamlit run app.py --server.port=8501
 
