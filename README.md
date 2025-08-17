@@ -19,14 +19,14 @@ Our Support Vector Regression model achieves exceptional accuracy:
 
 ## 🌟 Application Features
 
-### 📊 Data Exploration
+### 🎯 Price Prediction
 
-- **Interactive Dataset Analysis**: Comprehensive data overview with 466 samples and 13 features
-- **Advanced Filtering**: Real-time filtering by price range, rooms, crime rate, and Charles River proximity
-- **Statistical Analysis**: Descriptive statistics, correlation matrices, and distribution plots
-- **Visual Analytics**: Multiple chart types including histograms, scatter plots, and box plots
+- **Real-time Predictions**: Instant house price estimation with confidence intervals
+- **Comprehensive Validation**: Input validation with detailed error handling and user guidance
+- **Interactive Interface**: 13 feature inputs with proper ranges and descriptions
+- **Smart Features**: Reset functionality, random sampling, and celebration effects
 
-![Screenshot_17-8-2025_183830_localhost](https://github.com/user-attachments/assets/0d993049-c8bf-4e91-94e1-1fd12fcf61b9)
+![Screenshot_17-8-2025_183712_localhost](https://github.com/user-attachments/assets/814c1789-7768-4c9c-973c-01c17aff83bc)
 
 ### 🤖 Model Analytics
 
@@ -37,14 +37,14 @@ Our Support Vector Regression model achieves exceptional accuracy:
 
 ![Screenshot_17-8-2025_183738_localhost](https://github.com/user-attachments/assets/c7982a10-2173-469c-b115-1f817fcde6f4)
 
-### 🎯 Price Prediction
+### 📊 Data Exploration
 
-- **Real-time Predictions**: Instant house price estimation with confidence intervals
-- **Comprehensive Validation**: Input validation with detailed error handling and user guidance
-- **Interactive Interface**: 13 feature inputs with proper ranges and descriptions
-- **Smart Features**: Reset functionality, random sampling, and celebration effects
+- **Interactive Dataset Analysis**: Comprehensive data overview with 466 samples and 13 features
+- **Advanced Filtering**: Real-time filtering by price range, rooms, crime rate, and Charles River proximity
+- **Statistical Analysis**: Descriptive statistics, correlation matrices, and distribution plots
+- **Visual Analytics**: Multiple chart types including histograms, scatter plots, and box plots
 
-![Screenshot_17-8-2025_183712_localhost](https://github.com/user-attachments/assets/814c1789-7768-4c9c-973c-01c17aff83bc)
+![Screenshot_17-8-2025_183830_localhost](https://github.com/user-attachments/assets/0d993049-c8bf-4e91-94e1-1fd12fcf61b9)
 
 ### 📱 Professional Interface
 
