@@ -58,6 +58,7 @@ Our Support Vector Regression model achieves exceptional accuracy:
 ## 🚀 Quick Start Guide
 
 ### 🌐 Live Demo
+
 **Try the application instantly: [Boston Home Worth - Live App](https://bostonhomeworth.streamlit.app/)**
 
 ### ⚡ Instant Setup (Windows)
