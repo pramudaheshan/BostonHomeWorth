@@ -61,7 +61,7 @@ Our Support Vector Regression model achieves exceptional accuracy:
 
 ```powershell
 # Clone or download the project
-cd "E:/Projects/AIML Projects/BostonHomeWorth"
+cd "path/BostonHomeWorth"
 
 # Option 1: One-click startup (Recommended)
 ./run_streamlit.bat
@@ -540,7 +540,7 @@ feature_importance = {
 
 ```bash
 # 1. Fork the repository
-git clone https://github.com/yourusername/BostonHomeWorth.git
+git clone https://github.com/pramudaheshan/BostonHomeWorth.git
 cd BostonHomeWorth
 
 # 2. Create virtual environment
